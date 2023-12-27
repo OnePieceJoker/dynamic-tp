@@ -1,3 +1,5 @@
+> 个人学习使用，简易版
+
 <p align="center">
 	<img alt="logo" src="resources/img/logo.png" width="50%">
 </p>
