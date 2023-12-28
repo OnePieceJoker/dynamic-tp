@@ -15,10 +15,10 @@
     <properties>
         <revision>1.1.6.1</revision>
 
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
 
-        <spring-boot.version>2.7.18</spring-boot.version>
+        <spring-boot.version>3.2.0</spring-boot.version>
         <spring-cloud.version>2021.0.8</spring-cloud.version>
 
         <guava.version>31.1-jre</guava.version>
@@ -26,7 +26,7 @@
 
         <maven-flatten.version>1.3.0</maven-flatten.version>
         <maven-checkstyle-plugin.verion>3.1.0</maven-checkstyle-plugin.verion>
-        <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
+        <maven-compiler-plugin.version>3.12.1</maven-compiler-plugin.version>
         <maven-source-plugin.version>2.4</maven-source-plugin.version>
         <maven-javadoc-plugin.version>3.2.0</maven-javadoc-plugin.version>
         <maven-gpg-plugin.version>1.6</maven-gpg-plugin.version>
@@ -38,14 +38,14 @@
     </properties>
 
     <modules>
-        <module>adapter</module>
+        <!-- <module>adapter</module> -->
         <module>core</module>
         <module>common</module>
         <module>starter</module>
-        <module>logging</module>
+        <!-- <module>logging</module>
         <module>example</module>
         <module>extension</module>
-        <module>jvmti</module>
+        <module>jvmti</module> -->
         <module>test</module>
         <module>dependencies</module>
     </modules>
