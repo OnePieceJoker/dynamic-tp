@@ -40,5 +40,15 @@ public class TpExecutorProps {
      * Timeout unit.
      */
     private TimeUnit unit = TimeUnit.SECONDS;
+        
+    /**
+     * Task execute timeout, unit (ms), just for statistics.
+     */
+    private long runTimeout = 0;
+
+    /**
+     * Task queue wait timeout, unit (ms), just for statistics.
+     */
+    private long queueTimeout = 0;
 
 }
